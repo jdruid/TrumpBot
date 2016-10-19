@@ -118,10 +118,6 @@
     <Content Include="default.htm" />
     <Content Include="Global.asax" />
     <Content Include="img\bg.jpg" />
-    <Content Include="img\hero-bg.jpg" />
-    <Content Include="img\home-controls.png" />
-    <Content Include="img\home-paralax.jpg" />
-    <Content Include="img\logo.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
