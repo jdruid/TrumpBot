@@ -2,6 +2,8 @@
 
 Using the Microsoft Bot Framework and the What Does Donald Trump Think API, this example shows how to your the Bot Framework SDK with Dialogs along with accessing an API.
 
+![Picture](http://drew5.net/downloads/trump-bot.png)
+
 ## Installation
 
 1. Clone repo
