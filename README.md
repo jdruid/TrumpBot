@@ -15,6 +15,13 @@ Using the Microsoft Bot Framework and the What Does Donald Trump Think API, this
 
 - the Bot Endpoint is https://your-domain/api/messages however I have a test page called bot.html
 
+To interact with the Bot enter 'hi' to start the conversation
+TrumpBot will ask your name 
+TrumpBot will respond with a 'nickname' and dialog will continue
+
+Working example: http://trumpbot.azurewebsites.net/bot.html
+
+
 ## History
 
 None at this time
