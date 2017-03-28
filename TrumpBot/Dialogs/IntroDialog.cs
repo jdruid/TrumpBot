@@ -34,7 +34,7 @@ namespace TrumpBot.Dialogs
 
         public async Task StartAsync(IDialogContext context)
         {
-            context.Wait(ConversationStartedAsync);            
+             context.Wait(ConversationStartedAsync);            
         }
 
         public async Task ConversationStartedAsync(IDialogContext context, IAwaitable<IMessageActivity> argument)
@@ -76,7 +76,6 @@ namespace TrumpBot.Dialogs
                 prompt: $"So you are a {partyAffiliate}...Let me tell you something, {nicknameMessage}. Give me a topic and I will tell you my campaign message?",
                 retry: "I didn't understand. Please try again.");
         }
-
 
         public async Task ResumeAndPromptSummaryAsync(IDialogContext context, IAwaitable<string> argument)
         {
